@@ -1,0 +1,1 @@
+ worked perfectly without volatile on keepRunning the thread hangs forever. Once you mark keepRunning as volatile - it stops after t.keepRunning = false;
